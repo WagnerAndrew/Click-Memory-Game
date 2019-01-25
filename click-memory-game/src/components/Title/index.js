@@ -3,13 +3,12 @@ import React from "react";
 import "./style.css";
 
 function Title(props) {
-  return <nav className="navbar">
-      <ul>
-        <li className="brand"><a href="/">Reset Game</a></li>
-        <li className="">Click an image to begin!</li>
-        <li>Score: 0 | Top Score: 0</li>
-      </ul>
-    </nav>;
+  return <header>
+      
+        <h1>Click a Rock & Roll Hall of Famer to begin... But don't click them twice!</h1>
+        <h2>Score: 0 | Top Score: 0</h2>
+    
+    </header>;
 
 }
 
